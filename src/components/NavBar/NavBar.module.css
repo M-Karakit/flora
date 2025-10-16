@@ -1,0 +1,105 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.7rem 7rem;
+    height: 5.6rem;
+}
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    gap: 29.167rem;
+}
+
+.navLinks {
+    display: flex;
+    gap: 3rem;
+}
+
+.linkItem {
+    font-size: 1.6rem;
+    color:  #222222;
+}
+
+.btn {
+    font-size: 1.4rem;
+    color: #F5F5F5;
+    background-color: #025595;
+    height: 3.8rem;
+    padding: 1.05rem 4.9rem;
+    border: none;
+    border-radius: 0.6rem;
+}
+
+.hamburgerIcon {
+    display: none;
+}
+
+@media screen and (max-width: 992px) and (min-width: 300px){
+    .navBar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 3rem 2rem;
+        height: 3.5rem;
+        position: relative;
+    }
+
+    .logo {
+        img {
+            width: 4.6rem;
+            height: 3.5rem;
+        }
+    }
+
+    .navMenu {
+        display: none;
+        position: absolute;
+        top: calc(11.3rem - 3rem);
+        left: -2rem;
+        right: -2rem;
+        width: 100vw;
+        flex-direction: column;
+        gap: 6.2rem;
+    }
+
+    .navMenuOpen {
+        display: flex;
+    }
+
+    .navLinks {
+        flex-direction: column;
+        gap: 3.2rem;
+        width: 100%;
+    }
+
+    .navLinksOpen {
+        display: flex;
+    }
+
+    .linkItem {
+        padding: 2.4rem 2rem;
+        border-top: 0.1rem solid;
+        border-bottom: 0.1rem solid;
+        font-size: 2.4rem;
+        font-weight: 400 !important;
+        color:  #222222;
+    }
+
+    .activeLink {
+        background-color: #D7E6EA;
+        border: none;
+        border-radius: 0.5rem;
+    }
+
+    .btn {
+        width: 17.5rem;
+        height: 4.5rem;
+        margin-bottom: 7rem;
+    }
+
+    .hamburgerIcon {
+        display: block;
+    }
+}
