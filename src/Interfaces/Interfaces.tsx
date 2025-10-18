@@ -38,3 +38,16 @@ export interface DreamHomeSectionData {
         img: string;
     }
 }
+
+export interface MostTrendingSectionData {
+    cards: {
+        id: number;
+        img: string;
+        price: string;
+        description: string;
+        location: {
+            icon: string;
+            address: string;
+        }
+    }[]
+}

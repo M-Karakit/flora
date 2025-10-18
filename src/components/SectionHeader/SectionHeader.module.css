@@ -6,6 +6,8 @@
     font-size: 3.9rem;
     line-height: 100%;
     color: #222222;
+    line-height: 5.6rem;
+    margin-bottom: 0.5rem;
 }
 
 .subTitle {
@@ -21,6 +23,7 @@
 
     .title {
         font-size: 3rem;
+        margin-bottom: 0.6rem;
     }
 
     .subTitle {

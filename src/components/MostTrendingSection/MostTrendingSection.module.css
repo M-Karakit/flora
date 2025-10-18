@@ -1,0 +1,81 @@
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem 2.5rem;
+}
+
+.card {
+    padding: 2rem;
+    box-shadow: 0 0 1rem 0 #0000001A;
+    background-color: #FFFFFF26;
+    border-radius: 1rem;
+}
+
+.image {
+    margin-bottom: 1.6rem;
+}
+
+.image img{
+    width: 100%;
+}
+
+.price {
+    font-size: 1.8rem;
+    color: #025595;
+    line-height: 2.8rem;
+}
+
+.description {
+    font-size: 1.8rem;
+    color: #222222;
+    line-height: 2.9rem;
+    margin-bottom: 3.8rem;
+    max-width: 18rem;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 1.48rem;
+}
+
+.address {
+    font-size: 1.4rem;
+    color: #222222;
+    line-height: 2rem;
+}
+
+@media screen and (max-width: 992px) and (min-width: 300px){
+    .cardsContainer {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .card {
+        padding: 1.6rem;
+        border-radius: 0.6rem;
+    }
+
+    .image {
+        margin-bottom: 1.4rem;
+    }
+
+    .description {
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+        margin-bottom: 7.2rem;
+        max-width: 23.7rem;
+    }
+
+    .location {
+        gap: 1.545rem;
+    }
+
+    .location img {
+        width: 1.8rem;
+    }
+
+    .address {
+        font-size: 1.2rem;
+    }
+}
