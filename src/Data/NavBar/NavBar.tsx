@@ -1,12 +1,4 @@
-export interface NavData {
-    logo: string;
-    links: string[];
-    btn: {
-        content: string;
-    }
-    icon: string;
-    closeIcon: string;
-}
+import type { NavData } from "../../Interfaces/Interfaces";
 
 export const navData : NavData = {
     logo: 'assets/imgs/logo.svg',

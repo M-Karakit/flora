@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.7rem 7rem;
-    height: 5.6rem;
+    padding: 1.7rem 7rem;
+    height: 9rem;
+    background-color: #EFF8FF;
 }
 
 .navMenu {
@@ -41,8 +42,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 3rem 2rem;
-        height: 3.5rem;
+        padding: 3rem 2rem;
         position: relative;
     }
 
@@ -56,16 +56,17 @@
     .navMenu {
         display: none;
         position: absolute;
-        top: calc(11.3rem - 3rem);
-        left: -2rem;
-        right: -2rem;
-        width: 100vw;
+        top: calc(12rem - 3rem);
+        left: 0;
+        width: 100%;
         flex-direction: column;
         gap: 6.2rem;
+        z-index: 5;
     }
 
     .navMenuOpen {
         display: flex;
+        background-color: #ffffff;
     }
 
     .navLinks {

@@ -1,0 +1,43 @@
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.3rem;
+}
+
+.card {
+    padding: 3rem 4rem 8rem;
+    border-radius: 1.5rem;
+}
+
+.title {
+    font-size: 2.2rem;
+    color: #222222;
+    margin: 2rem 0 1rem;
+}
+
+.subTitle {
+    font-size: 1.4rem;
+    color: #22222280;
+    line-height: 2.4rem;
+}
+
+.Endeavour-Blue {
+    background-color: #025595;
+}
+
+.White {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 992px) and (min-width: 300px){
+    .cardsContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .card {
+        padding: 1.5rem 1.75rem 2.8rem;
+        border-radius: 1rem;
+    }
+}

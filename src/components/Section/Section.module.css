@@ -1,0 +1,9 @@
+.whiteSpacing {
+    margin: 6.88140vw 5.12445vw;
+}
+
+@media screen and (max-width: 992px) and (min-width: 300px){
+    .whiteSpacing {
+        margin: 6.4rem 2rem;
+    }
+}

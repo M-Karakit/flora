@@ -1,0 +1,132 @@
+.heroContainer {
+    height: calc(100vh - 9rem);
+    padding-left: 7rem;
+    background-color: #EFF8FF;
+    position: relative;
+}
+
+.title {
+    position: relative;
+    font-size: 6rem;
+    color: #222222;
+    line-height: 8rem;
+    max-width: 54.9rem;
+    margin-bottom: 2rem;
+    padding-top: 3.2rem;
+    z-index: 1;
+}
+
+.subTitle {
+    position: relative;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #22222280;
+    max-width: 42.3rem;
+    z-index: 1;
+}
+
+.statsContainer {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 6.368rem;
+    padding: 2rem 5.8rem;
+    margin-top: 5rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    border-radius: 1.6rem;
+    z-index: 1;
+}
+
+.statsItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.997rem;
+}
+
+.icon {
+    padding: 1.5rem;
+    border-radius: 50%;
+    background-color: #f0f6fa;
+}
+
+.heroImg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.heroImg img {
+    width: 100%;
+}
+
+.stateTitle {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #222222;
+    letter-spacing: -0.22px;
+}
+
+.stateSubTitle {
+    font-size: 1.6rem;
+    color: #22222280;
+}
+
+@media screen and (max-width: 992px) and (min-width: 300px){
+    .heroContainer {
+        padding: 0;
+        background-color: #EFF8FF;
+        position: relative;
+    }
+
+    .title {
+        font-size: 3.5rem;
+        line-height: 4.6rem;
+        max-width: 32rem;
+        padding-left: 2rem;
+    }
+
+    .subTitle {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        max-width: 29.4rem;
+        padding-left: 2rem;
+    }
+
+    .statsContainer {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 2.4rem;
+        padding: 2rem 2rem;
+        margin-top: 3.5rem;
+        border-radius: 0;
+    }
+
+    .statsItem {
+        display: flex;
+        align-items: center;
+        gap: 2.4rem;
+    }
+
+    .heroImg {
+        position: absolute;
+        width: 42.6rem;
+        top: 351px;
+    }
+
+    .heroImg img {
+        width: 100%;
+    }
+
+    .stateTitle {
+        margin-bottom: 0.6rem;
+    }
+
+    .stateSubTitle {
+        font-size: 1.5rem;
+    }
+}
