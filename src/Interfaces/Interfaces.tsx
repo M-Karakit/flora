@@ -51,3 +51,19 @@ export interface MostTrendingSectionData {
         }
     }[]
 }
+
+export interface RealEstateDealData {
+    categories: {
+        id: number;
+        title: string;
+    }[];
+    cards: {
+        id: number;
+        categoryId: number;
+        image: string;
+        btn: {
+            id: number;
+            content: string;
+        }[];
+    }[];
+}
