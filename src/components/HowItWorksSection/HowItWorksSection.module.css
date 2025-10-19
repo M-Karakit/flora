@@ -37,6 +37,8 @@
     }
 
     .card {
+        max-width: 40.5rem;
+        margin: 0 auto;
         padding: 1.5rem 1.75rem 2.8rem;
         border-radius: 1rem;
     }

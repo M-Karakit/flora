@@ -67,3 +67,19 @@ export interface RealEstateDealData {
         }[];
     }[];
 }
+
+export interface FooterData {
+    info: {
+        logo: string;
+        text: string;
+    };
+    columns: {
+        title: string;
+        links: string[];
+        icon?: string[];
+    }[];
+    subFooter: {
+        left: string;
+        right: string[];
+    }
+}

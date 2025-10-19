@@ -3,6 +3,8 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import { navData } from './Data/NavBar/NavBar'
 import Home from './Pages/Home'
+import Footer from './components/Footer/Footer'
+import { footerData } from './Data/Footer/Footer'
 
 function App() {
 
@@ -12,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}/>
       </Routes>
+      <Footer {...footerData}/>
     </>
   )
 }

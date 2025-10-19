@@ -76,6 +76,7 @@
 
 @media screen and (max-width: 992px) and (min-width: 300px){
     .heroContainer {
+        height: calc(100vh - 2.5rem);
         padding: 0;
         background-color: #EFF8FF;
         position: relative;
